@@ -1,13 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { render } from '@testing-library/react';
 import Paper from '@material-ui/core/Paper';
 import Container from '@material-ui/core/Container'
-import { Avatar, Button, CssBaseline, Divider, Grid, Hidden, Icon, IconButton, Link, Typography } from '@material-ui/core';
-import { createMuiTheme, makeStyles } from '@material-ui/core/styles';
+import { Avatar, Button, Divider, Grid, IconButton, Link, Typography } from '@material-ui/core';
+import { makeStyles } from '@material-ui/core/styles';
 import Slider from './slider1'
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import FacebookIcon from '@material-ui/icons/Facebook';
@@ -54,7 +52,6 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 function Logo(){
-  const classes = useStyles();
     return (
       <Grid container spacing={1}>
         <Grid item xs={6}>
@@ -125,7 +122,6 @@ function Stats(){
 }
 
 function About(){
-  const classes = useStyles();
   return(
   <Container>
     <Typography variant="h4">About</Typography>
@@ -136,7 +132,6 @@ function About(){
 }
 
 function Certificates(){
-  const classes=useStyles();
   return(
     <Container>
       <Typography variant="h4">Certificates</Typography>
@@ -146,7 +141,6 @@ function Certificates(){
 }
 
 function Assignments(){
-  const classes=useStyles();
   return(
     <Container>
       <Typography variant="h4">Assignments</Typography>
