@@ -198,7 +198,7 @@ function Footer(){
         <Divider variant="middle" color="black" />
       </Grid>
       <Grid item xs={12}>
-        <img src="./google_play_logo.png" className="footerimg" />
+        <img src="./google_play_logo.png" className="footerimg" alt ="ggogle play" />
       </Grid>
       <Grid item xs={12}>
         <Typography variant="body2" color="textSecondary" align="center">
