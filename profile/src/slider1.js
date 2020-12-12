@@ -4,8 +4,8 @@ import './slider.css';
  
 // list of items
 const list = [
-  { name: <img src="./me.jpg" className="sliderImg" /> },
-  { name: <img src="./me.jpg" className="sliderImg" /> },
+  { name: <img src="./me.jpg" className="sliderImg" alt="" /> },
+  { name: <img src="./me.jpg" className="sliderImg" alt="" /> },
 ];
  
 // One item component
