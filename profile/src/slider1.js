@@ -26,18 +26,6 @@ export const Menu = (list, selected) =>
   });
  
  
-const Arrow = ({ text, className }) => {
-  return (
-    <div
-      className={className}
-    >{text}</div>
-  );
-};
- 
- 
-const ArrowLeft = Arrow({ text: '<', className: 'arrow-prev' });
-const ArrowRight = Arrow({ text: '>', className: 'arrow-next' });
- 
 const selected = 'item1';
  
 export default class App extends Component {
